@@ -15,9 +15,10 @@ model Lecture {
   userId      Int    @unique
   nip         String @unique
   gender      Gender
-  major     String
-  address   String?
-  phone     String?
+  major       String
+  faculty     String
+  address     String?
+  phone       String?
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 }

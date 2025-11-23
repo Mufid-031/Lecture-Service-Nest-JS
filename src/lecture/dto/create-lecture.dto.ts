@@ -20,6 +20,9 @@ export class CreateLectureDto {
   @IsString()
   major: string;
 
+  @IsString()
+  faculty: string;
+
   @IsOptional()
   @IsString()
   address?: string;

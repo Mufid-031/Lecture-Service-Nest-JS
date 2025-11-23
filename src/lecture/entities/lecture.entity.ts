@@ -17,6 +17,9 @@ export class LectureEntity {
   major: string;
 
   @ApiProperty()
+  faculty: string;
+
+  @ApiProperty()
   address?: string;
 
   @ApiProperty()
